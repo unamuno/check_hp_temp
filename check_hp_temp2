@@ -82,7 +82,6 @@ else:
 
 
 for line in infile.splitlines():
-    print(line)
     sensors.append(line.split())
 sensors = cleanArray(sensors)
 sensors = map(parseDegrees, sensors)
